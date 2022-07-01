@@ -1,0 +1,174 @@
+header {
+    background: rgb(214, 169, 70);
+    padding: 20px;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 150px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    color: #000000;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+nav a:hover {
+    color: rgb(207, 12, 12);
+    text-decoration: underline;
+}
+
+/* CORPO DA PAGINA */
+.produtos {
+    margin: 0 auto;
+    padding: 20px;
+    width: 940px;
+}
+
+.produtos li {
+    box-sizing: border-box;
+    border: 3px rgb(214, 169, 70)solid;
+    border-radius: 15px;
+    display: inline-block;
+    text-align: center;
+    margin: 0.5%;
+    padding: 30px 20px;
+    vertical-align: top;
+    width: 30%;
+}
+
+.produtos li:hover {
+    border-color: rgb(207, 12, 12);
+}
+
+.produtos li:active {
+    border-color: rgb(0, 0, 0);
+}
+
+
+.img-lista-produto {
+    margin: 15px 0 15px 0;
+    width: 15em;
+
+}
+
+.produtos li:hover h2 {
+    font-size: 60px;
+    color: rgb(214, 169, 70)
+}
+
+.produtos li:active h2 {
+    color: rgb(207, 12, 12);
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao {
+    font-size: 26px;
+}
+
+.precos {
+    font-size: 20px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+footer {
+    background: rgb(163, 67, 67);
+    padding: 40px 0;
+    text-align: center
+}
+
+.copyright {
+    color: white;
+    font-size: 13px;
+    margin: 30px;
+}
+
+/* formulario */
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label,form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrão {
+    margin: 0 0 15px;
+    display: block;
+    font-size: 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.horarios{
+    padding: 8px;
+    margin-left: 50px;
+}
+.checkbox {
+    margin: 20px 0;
+}
+
+.btn-enviar {
+    width: 40%;
+    background: rgb(207, 12, 12);
+    ;
+    padding: 15px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    transform: 1.5s all;
+    cursor: pointer;
+}
+
+.btn-enviar:hover {
+    background: rgb(214, 169, 70);
+    color: #000000;
+    transform: scale(1.2);
+
+}
+
+table {
+    margin: 10px 0 25px;
+}
+
+thead {
+    background: rgb(163, 67, 67);
+    font-weight: bold;
+    color: white;
+}
+
+td,
+th {
+    border: 1px solid rgb(207, 12, 12);
+    padding: 7px 14px;
+
+}
