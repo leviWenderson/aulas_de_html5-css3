@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+
+    <title>Contato - Lanche do Arilson</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@1,700&family=Roboto&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <section class="caixa">
+            <h1><img src="logo lanche v2-sem fundo.png" alt="Logo do lanche do Arilson"></h1>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li> <a href="produtos.html">Produtos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" class="input-padrão" required placeholder="seu nome aqui">
+                <label for="email">Email</label>
+                <input type="email" id="email" class="input-padrão" required placeholder="seu.email@dominio.com">
+
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" class="input-padrão" required placeholder="(DD)x xxxx-xxxx">
+
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" rows="10" cols="10" class="input-padrão"></textarea>
+            </fieldset>
+
+            <fieldset>
+                <legend>Como gostaria de entrar em contaro?</legend>
+
+                <label class="input-radial" for="radio-email"><input type="radio" value="email" id="radio-email"
+                        name="contato">E-mail</label>
+
+                <label class="input-radial"for="radio-telefone"><input type="radio" value="Telefone" id="radio-telefone" name="contato">
+                    Telefone</label>
+
+                <label class="input-radial" for="radio-whatsapp"><input type="radio" value="whatsapp" id="radio-whatsapp" name="contato" checked>WhatsApp</label>
+            </fieldset>
+            <fieldset >
+                <legend class="atendimento">Qual o horario gostaria de ser atendido?</legend>
+                <select class="horarios">
+                    <option>Manhã</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                </select>
+            </fieldset>
+            <label><input class="checkbox" type="checkbox" checked>Gostaria de receber nossas promoções por
+                E-mail</label>
+
+            <input type="submit" value="Enviar Pergunta" class="btn-enviar">
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>Dia</th>
+                    <th>horario de Funcionamento</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Segunda-Feira</td>
+                    <td>Das 17:30 ás 23:30</td>
+                </tr>
+                <tr>
+                    <td>Terça-Feira</td>
+                    <td>Fechado</td>
+                </tr>
+                <tr>
+                    <td>Quarta-Feira</td>
+                    <td>Das 17:30 ás 23:30</td>
+                </tr>
+                <tr>
+                    <td>Quinta-Feira</td>
+                    <td>Das 17:30 ás 23:30</td>
+                </tr>
+                <tr>
+                    <td>Sexta-Feira</td>
+                    <td>Das 17:30 ás 23:30</td>
+                </tr>
+                <tr>
+                    <td>Sábado</td>
+                    <td>Das 17:30 ás 23:30</td>
+                </tr>
+                <tr>
+                    <td>Domingo</td>
+                    <td>Das 17:30 ás 23:30</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    <footer>
+        <img src="logo lanche v2-sem fundo.png" alt="logo do lanche do Arilson">
+        <p class="copyright">Todos os direitos reservados - &copy; copyright | 2022 </p>
+    </footer>
+</body>
+
+</html>
